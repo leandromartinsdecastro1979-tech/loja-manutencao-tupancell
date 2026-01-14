@@ -1,4 +1,7 @@
 
+// Added import to resolve 'Cannot find namespace React' error
+import React from 'react';
+
 export interface ServiceCardProps {
   icon: React.ReactNode;
   title: string;

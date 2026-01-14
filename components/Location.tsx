@@ -53,11 +53,11 @@ const Location: React.FC = () => {
               <div className="space-y-3 text-sm font-medium">
                 <div className="flex justify-between border-b border-zinc-900 pb-2">
                   <span className="text-zinc-400">Segunda – Sexta</span>
-                  <span>09:30 – 18:30</span>
+                  <span>09:30 – 17:00</span>
                 </div>
-                <div className="flex justify-between border-b border-zinc-900 pb-2">
-                  <span className="text-zinc-400">Sábado</span>
-                  <span>09:00 – 14:00</span>
+                <div className="flex justify-between border-b border-zinc-900 pb-2 text-orange-500">
+                  <span className="font-bold">Sábado</span>
+                  <span>Fechado</span>
                 </div>
                 <div className="flex justify-between text-orange-500">
                   <span className="font-bold">Domingo</span>
